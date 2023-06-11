@@ -1,0 +1,20 @@
+{
+  "version": "0.2",
+  "words": [
+    "bech",
+    "bitcoinjs",
+    "coldcard",
+    "utxo",
+    "wordlist",
+    "wordlists"
+  ],
+  "dictionaries": [
+    "bash",
+    "typescript"
+  ],
+  "ignorePaths": [
+    "/coverage/**",
+    "/dist/**",
+    "/package.json"
+  ]
+}
