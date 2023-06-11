@@ -4,6 +4,7 @@
   // https://github.com/import-js/eslint-plugin-import/issues/2751
   "extends": "@tsconfig/node-lts-strictest-esm/tsconfig.json",
   "compilerOptions": {
+    // This is currently necessary because the base has importsNotUsedAsValues set
     "ignoreDeprecations": "5.0",
     "importHelpers": true,
     "outDir": "dist",
