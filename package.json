@@ -20,7 +20,7 @@
     "name": "Andreas Huber"
   },
   "engines": {
-    "node": ">=14.18.0"
+    "node": ">=18.16.0"
   },
   "type": "module",
   "main": "dist/main.js",
