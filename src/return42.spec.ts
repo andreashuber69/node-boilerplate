@@ -6,8 +6,4 @@ await describe("return42", async () => {
     await it("should return 42", () => {
         assert(return42() === 42);
     });
-
-    await it("should return 42 2", () => {
-        assert(return42() === 42);
-    });
 });
