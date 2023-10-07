@@ -47,15 +47,15 @@
     "tslib": "^2.6.2"
   },
   "devDependencies": {
-    "@andreashuber69/eslint-config": "^1.1.56",
+    "@andreashuber69/eslint-config": "^1.1.58",
     "@tsconfig/node-lts-strictest-esm": "^18.12.1",
-    "@types/node": "^18.18.1",
+    "@types/node": "^18.18.4",
     "c8": "^8.0.1",
     "coveralls": "^3.1.1",
     "cspell": "^7.3.7",
     "markdownlint-cli": "^0.37.0",
     "tsx": "^3.13.0",
     "typescript": "^5.2.2",
-    "vite": "^4.4.9"
+    "vite": "^4.4.11"
   }
 }
