@@ -10,7 +10,7 @@
   "homepage": "https://github.com/andreashuber69/node-boilerplate/blob/develop/README.md",
   "repository": {
     "type": "git",
-    "url": "https://github.com/andreashuber69/node-boilerplate.git"
+    "url": "git+https://github.com/andreashuber69/node-boilerplate.git"
   },
   "bugs": {
     "url": "https://github.com/andreashuber69/node-boilerplate/issues"
@@ -24,7 +24,9 @@
   },
   "type": "module",
   "main": "dist/main.js",
-  "bin": "dist/main.js",
+  "bin": {
+    "node-boilerplate": "dist/main.js"
+  },
   "files": [
     "/dist/",
     "!/**/*.spec.*",
