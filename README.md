@@ -2,8 +2,8 @@
   node-boilerplate
 </h1>
 <p align="center">
-  <a href="https://travis-ci.com/github/andreashuber69/node-boilerplate">
-    <img src="https://travis-ci.com/andreashuber69/node-boilerplate.svg?branch=master" alt="Build">
+  <a href="https://github.com/andreashuber69/node-boilerplate/actions/workflows/ci.yml">
+    <img src="https://github.com/andreashuber69/node-boilerplate/actions/workflows/ci.yml/badge.svg" alt="CI">
   </a>
   <a href="https://github.com/andreashuber69/node-boilerplate/issues">
     <img src="https://img.shields.io/github/issues-raw/andreashuber69/node-boilerplate.svg" alt="Issues">
