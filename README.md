@@ -23,7 +23,7 @@
 </p>
 
 Provides a boilerplate for a [Node.js](https://nodejs.org/) project written in
-[TypeScript](https://www.typescriptlang.org/).Features include:
+[TypeScript](https://www.typescriptlang.org/). Features include:
 
 - `npm run lint`: Spell check with [cspell](https://www.npmjs.com/package/cspell) and lint with
   [@andreashuber69/eslint-config](https://www.npmjs.com/package/@andreashuber69/eslint-config).
