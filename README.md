@@ -22,4 +22,21 @@
   </a>
 </p>
 
-As the name says, this is a boilerplate for node projects written in Typescript.
+Provides a boilerplate for a [Node.js](https://nodejs.org/) project written in
+[TypeScript](https://www.typescriptlang.org/).Features include:
+
+- `npm run lint`: Spell check with [cspell](https://www.npmjs.com/package/cspell) and lint with
+  [@andreashuber69/eslint-config](https://www.npmjs.com/package/@andreashuber69/eslint-config).
+- `npm run test`: Run unit tests with the [Node.js test runner](https://nodejs.org/docs/latest-v20.x/api/test.html) with
+  code coverage through [c8](https://www.npmjs.com/package/c8).
+- `npm run build`: Compiles everything in *./src* to the *./dist* folder.
+- `npm run ci`: Run all of the above in the proper order (continuous integration).
+- `npm run show-coverage`: Show code coverage in the browser.
+- `npm version patch`, `npm version minor` or `npm version major`: Create a new release branch with
+  [git-flow](https://nvie.com/posts/a-successful-git-branching-model/).
+- `npm run finish-release`: Finish a release with **git-flow**.
+- The [CI workflow](https://github.com/andreashuber69/node-boilerplate/blob/develop/.github/workflows/ci.yml)
+  automatically runs `npm run ci` on every push on all branches. When available, code coverage data is then uploaded to
+  [Code Climate](https://codeclimate.com/) and [Coveralls](https://coveralls.io/) if the associated GitHub repository
+  secrets `COVERALLS_REPO_TOKEN` and `CODECLIMATE_TEST_REPORTER_ID` are set. Moreover, if the secret `NPM_ACCESS_TOKEN`
+  is set and the push happened on the **master** branch, the package is also published with `npm publish`.
