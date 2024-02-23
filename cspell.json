@@ -1,18 +1,13 @@
 {
   "version": "0.2",
   "words": [
-    "bech",
-    "bitcoinjs",
-    "coldcard",
-    "utxo",
-    "wordlist",
-    "wordlists"
   ],
   "dictionaries": [
     "bash",
     "typescript"
   ],
   "ignorePaths": [
+    "/cc-test-reporter",
     "/coverage/**",
     "/dist/**",
     "/package.json"
