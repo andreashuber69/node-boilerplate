@@ -2,6 +2,9 @@
   node-boilerplate
 </h1>
 <p align="center">
+  <a href="https://github.com/andreashuber69/node-boilerplate/releases">
+    <img src="https://img.shields.io/github/release-date/andreashuber69/node-boilerplate.svg" alt="Release Date">
+  </a>
   <a href="https://github.com/andreashuber69/node-boilerplate/actions/workflows/ci.yml">
     <img src="https://github.com/andreashuber69/node-boilerplate/actions/workflows/ci.yml/badge.svg" alt="CI">
   </a>
