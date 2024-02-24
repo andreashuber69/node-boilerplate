@@ -26,6 +26,7 @@ Provides a boilerplate for [Node.js](https://nodejs.org/) projects written in
 [TypeScript](https://www.typescriptlang.org/). Features include:
 
 - `npm run lint`: Spell check with [cspell](https://www.npmjs.com/package/cspell) and lint with
+  [markdownlint-cli](https://www.npmjs.com/package/markdownlint-cli) and
   [@andreashuber69/eslint-config](https://www.npmjs.com/package/@andreashuber69/eslint-config).
 - `npm run test`: Run unit tests with the [Node.js test runner](https://nodejs.org/docs/latest-v20.x/api/test.html) with
   code coverage through [c8](https://www.npmjs.com/package/c8).
