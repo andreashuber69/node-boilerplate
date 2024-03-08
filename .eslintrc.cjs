@@ -1,5 +1,5 @@
 // https://github.com/andreashuber69/node-boilerplate/blob/develop/README.md
-// eslint-disable-next-line import/unambiguous, import/no-commonjs
+// eslint-disable-next-line import/no-commonjs, import/unambiguous
 module.exports = {
     env: {
         node: true,
