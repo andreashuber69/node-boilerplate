@@ -36,8 +36,8 @@
   "scripts": {
     "start": "tsx './src/main.ts'",
     "prelint": "cspell '**' && markdownlint '**/*.md'",
-    "lint": "eslint --ext .cjs,.ts --report-unused-disable-directives '.'",
-    "build": "tsc -p './src'",
+    "lint": "eslint --report-unused-disable-directives",
+    "build": "tsc",
     "test-no-coverage": "node --import tsx --test src/*.spec.ts",
     "test": "c8 --exclude 'src/*.spec.ts' --reporter=text --reporter=lcov npm run test-no-coverage",
     "show-coverage": "vite 'coverage/lcov-report' --logLevel error --open",
@@ -51,7 +51,7 @@
     "tslib": "^2.8.1"
   },
   "devDependencies": {
-    "@andreashuber69/eslint-config": "^1.2.32",
+    "@andreashuber69/eslint-config": "^2.0.0-beta.0",
     "@tsconfig/node-lts": "^22.0.1",
     "@tsconfig/strictest": "^2.0.5",
     "c8": "^10.1.3",

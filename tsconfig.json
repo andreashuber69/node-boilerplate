@@ -4,12 +4,13 @@
     "@tsconfig/node-lts/tsconfig"
   ],
   "compilerOptions": {
-    "noEmit": true,
+    "importHelpers": true,
+    "outDir": "dist",
     "resolveJsonModule": true,
+    "sourceMap": true,
     "verbatimModuleSyntax": true
   },
   "include": [
-    ".eslintrc.cjs",
-    "*.ts"
+    "src/**/*.ts"
   ]
 }

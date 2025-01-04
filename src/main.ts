@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 
 // https://github.com/andreashuber69/node-boilerplate/develop/README.md
+
 import { createRequire } from "node:module";
 
 try {
