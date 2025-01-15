@@ -4,11 +4,10 @@
     "@tsconfig/node-lts/tsconfig"
   ],
   "compilerOptions": {
-    "importHelpers": true,
-    "outDir": "dist",
+    "module": "nodenext",
+    "noEmit": true,
     "resolveJsonModule": true,
-    "sourceMap": true,
     "verbatimModuleSyntax": true
   },
-  "include": ["src/**/*.ts"]
+  "include": ["src/**/*"]
 }

@@ -28,11 +28,10 @@ Provides a boilerplate for [Node.js](https://nodejs.org/) projects written in
 - `npm run lint`: Spell check with [cspell](https://www.npmjs.com/package/cspell) and lint with
   [markdownlint-cli](https://www.npmjs.com/package/markdownlint-cli) and
   [@andreashuber69/eslint-config](https://www.npmjs.com/package/@andreashuber69/eslint-config).
-- `npm run build`: Compiles everything in *./src* to the *./dist* folder.
-- `npm test`: Run unit tests with the [Node.js test runner](https://nodejs.org/docs/latest-v20.x/api/test.html) with
-  code coverage through [c8](https://www.npmjs.com/package/c8).
+- `npm run build`: Compiles everything in *src* to the *dist* folder.
+- `npm test`: Run unit tests with [vitest](https://vitest.dev/) with code coverage.
 - `npm run ci`: Run all of the above in the proper order (continuous integration).
-- `npm start`: Run *./src/main.ts* with [tsx](https://www.npmjs.com/package/tsx).
+- `npm start`: Run *src/main.ts* with [tsx](https://www.npmjs.com/package/tsx).
 - `npm run show-coverage`: Show code coverage in the browser.
 - `npm version patch`, `npm version minor` or `npm version major`: Create a new release branch with
   [git-flow](https://nvie.com/posts/a-successful-git-branching-model/).
