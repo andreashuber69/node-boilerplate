@@ -4,10 +4,10 @@
     "@tsconfig/node-lts/tsconfig"
   ],
   "compilerOptions": {
+    "allowImportingTsExtensions": true,
     "module": "nodenext",
     "noEmit": true,
-    "resolveJsonModule": true,
-    "verbatimModuleSyntax": true
+    "resolveJsonModule": true
   },
   "include": ["src/**/*"]
 }
