@@ -1,11 +1,8 @@
 {
-  "extends": [
-    "@tsconfig/strictest/tsconfig",
-    "@tsconfig/node-lts/tsconfig"
-  ],
+  "extends": ["@tsconfig/strictest/tsconfig"],
   "compilerOptions": {
     "allowImportingTsExtensions": true,
-    "module": "nodenext",
+    "module": "NodeNext",
     "noEmit": true,
     "resolveJsonModule": true
   },

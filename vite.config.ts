@@ -11,11 +11,6 @@ export default defineConfig({
             formats: ["es"],
         },
         outDir: "dist",
-        rollupOptions: {
-            input: {
-                main: "src/main.ts",
-            },
-        },
         sourcemap: true,
         ssr: true,
     },
