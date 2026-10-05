@@ -4,7 +4,10 @@
     "allowImportingTsExtensions": true,
     "module": "NodeNext",
     "noEmit": true,
-    "resolveJsonModule": true
+    "resolveJsonModule": true,
+    "types": [
+      "node"
+    ]
   },
   "include": ["src/**/*"]
 }
